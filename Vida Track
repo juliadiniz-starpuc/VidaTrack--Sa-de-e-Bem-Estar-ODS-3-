@@ -1,1 +1,4 @@
+git rm "Vida Track"
+git commit -m "Remove Vida Track file"
+git push origin main
 
