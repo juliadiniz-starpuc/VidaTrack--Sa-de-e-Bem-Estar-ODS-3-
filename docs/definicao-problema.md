@@ -10,7 +10,7 @@ Desenvolver uma solução de software que permita aos usuários registrar e acom
 ## Tipo de Solução
 Será desenvolvido um sistema web com frontend, backend e banco de dados para permitir:
 - Cadastro e autenticação de usuários;
-- Registro de hábitos diários;
+- Registro de hábitos diários.
 - Definição de metas;
 - Visualização de indicadores em dashboard.
 
