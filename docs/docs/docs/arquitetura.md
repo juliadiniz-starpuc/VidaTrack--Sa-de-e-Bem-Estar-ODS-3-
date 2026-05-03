@@ -1,0 +1,115 @@
+# Arquitetura do Projeto
+
+## Modelo Arquitetural Adotado
+
+A arquitetura da solução foi modelada utilizando o C4 Model, nos níveis:
+
+- Nível 1 — Diagrama de Contexto (System Context)
+- Nível 2 — Diagrama de Containers (Container Diagram)
+
+A escolha desse modelo visa representar a arquitetura em diferentes níveis de abstração, facilitando o entendimento da estrutura da solução.
+
+---
+
+## Diagrama de Contexto
+
+O diagrama de contexto apresenta os atores externos e a interação com o sistema VidaTrack.
+
+![Diagrama de Contexto](./images/c4-context.png)
+
+---
+
+## Diagrama de Containers
+
+O diagrama de containers apresenta os principais componentes tecnológicos da solução.
+
+![Diagrama de Containers](./images/c4-container.png)
+
+---
+
+## Escolhas de Tecnologias
+
+### Frontend
+Tecnologia proposta:
+- React
+
+Justificativa:
+Utilização de arquitetura baseada em componentes, suporte para interfaces responsivas e facilidade de evolução da camada de apresentação.
+
+---
+
+### Backend
+Tecnologia proposta:
+- Node.js
+- Express
+
+Justificativa:
+Permite desenvolvimento simples de APIs REST e rápida implementação da lógica de negócio.
+
+---
+
+### Banco de Dados
+Tecnologia proposta:
+- PostgreSQL
+
+Justificativa:
+Banco relacional adequado para armazenamento de usuários, registros de hábitos e metas.
+
+---
+
+## Projeto Arquitetural
+
+A solução foi estruturada em três camadas:
+
+### Camada de Apresentação
+Responsável pela interface com o usuário.
+
+Funções:
+- Cadastro e login
+- Registro de hábitos
+- Visualização do dashboard
+
+---
+
+### Camada de Negócio
+Responsável pela lógica da aplicação.
+
+Funções:
+- Processamento das regras de negócio
+- Gestão de metas
+- Geração de lembretes
+- Exposição de APIs
+
+---
+
+### Camada de Dados
+Responsável pela persistência das informações.
+
+Dados armazenados:
+- Usuários
+- Hábitos registrados
+- Metas
+- Histórico de progresso
+
+---
+
+## Fluxo da Arquitetura
+
+Usuário → Frontend → API Backend → Banco de Dados
+
+Fluxo adicional:
+
+Backend → Serviço de Notificação → Usuário
+
+---
+
+## Justificativa do Modelo Escolhido
+
+O C4 Model foi escolhido por:
+
+- Permitir representação arquitetural em múltiplos níveis;
+- Facilitar comunicação do projeto;
+- Melhorar documentação da solução;
+- Apoiar futuras evoluções do sistema.
+
+A arquitetura em camadas foi adotada para reduzir acoplamento, facilitar manutenção e permitir escalabilidade.
