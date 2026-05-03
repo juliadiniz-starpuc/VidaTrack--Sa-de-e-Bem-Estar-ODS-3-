@@ -11,19 +11,9 @@ A escolha desse modelo visa representar a arquitetura em diferentes níveis de a
 
 ---
 
-## Diagrama de Contexto
-
-O diagrama de contexto apresenta os atores externos e a interação com o sistema VidaTrack.
-
-![Diagrama de Contexto](./images/c4-context.png)
-
----
-
 ## Diagrama de Containers
 
 O diagrama de containers apresenta os principais componentes tecnológicos da solução.
-
-![Diagrama de Containers](./images/c4-container.png)
 
 ---
 
