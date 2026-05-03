@@ -8,12 +8,7 @@ A arquitetura da solução foi modelada utilizando o C4 Model, nos níveis:
 - Nível 2 — Diagrama de Containers (Container Diagram)
 
 A escolha desse modelo visa representar a arquitetura em diferentes níveis de abstração, facilitando o entendimento da estrutura da solução.
-
----
-
-## Diagrama de Containers
-
-O diagrama de containers apresenta os principais componentes tecnológicos da solução.
+ containers apresenta os principais componentes tecnológicos da solução.
 
 ---
 
